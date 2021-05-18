@@ -1,7 +1,11 @@
-# From React-Hooks course 
+This is a project from React-Hooks course, with a slightly somewhat difference
 
-** How to run **
+# https://react-food-order-app.netlify.app/
+
+**How to run**
+
+- git clone
 - npm install
 - npm run
 
-## Create-React-App + Firebase Realtime Database + Netlify 
+## Create-React-App + Firebase Realtime Database + Netlify
