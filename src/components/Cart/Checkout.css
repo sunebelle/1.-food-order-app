@@ -1,0 +1,29 @@
+.checkout__main {
+  max-width: 60rem;
+  width: 60%;
+  margin: 2rem auto;
+  animation: checkout-appear 1s ease-out forwards;
+}
+.checkout__form {
+  padding: 20px;
+}
+.checkout__form label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.checkout__form input {
+  font-size: 20px;
+  margin-top: 10px;
+}
+@keyframes checkout-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+    

@@ -1,0 +1,52 @@
+.form__addMeal {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.input__value {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form__addMeal label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.form__addMeal input {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.addMeal__btn {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+.addMeal__cancel {
+  font: inherit;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #8a2b06;
+  color: #8a2b06;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+.addMeal__btn:hover,
+.addMeal__btn:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+.addMeals__BtnCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
